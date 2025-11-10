@@ -8,13 +8,13 @@ This application allows users to manage an investment portfolio, track asset per
 
 ## Features
 
-### Core Requirements
+### Core Features
 
 1. **Add Assets** - Specify ticker, sector, asset class, quantity and purchase price.
 2. **Price Tracking** - View current and historical prices with interactive graphs for individual or multiple tickers.
 3. **Portfolio view** - Display all assets with name, sector, asset class, quantity, purchase price, transaction value, and current value.
 4. **Portfolio Calculations** - Total portfolio value and relative weights of each asset, with breakdowns by asset class and sector.
-5. **15-year Simulation** - Monte Carlo simulation with 100,000 paths demonstrating risk and uncertainty impact.
+5. **Simulation** - Monte Carlo simulation for a large number of sample paths over a long period demonstrating risk and uncertainty impact.
 
 ### Extended Features
 
@@ -209,10 +209,10 @@ pip install -r requirements.txt
 - No network dependency
 
 ### Online Mode
-- Fetches live data from Yahoo Finance.
-- All tickers available.
-- May encouter rate limits.
-- Switch using Option 8 in menu.
+- Fetches live data from Yahoo Finance
+- All tickers available
+- May encouter rate limits
+- Switch using Option 8 in menu
 
 ### Updating Cached Data
 
@@ -244,3 +244,6 @@ This is useful when:
 ## Author
 
 Created as a demonstation of MVC architecture and financial portfolio simulation techniques.
+
+Jarno Klink
+GitHub: [@jarnoklink](https://github.com/jarnoklink)
